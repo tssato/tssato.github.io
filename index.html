@@ -2,17 +2,89 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ポートフォリオ - tsutomu</title>
+  <title>tsutomu ポートフォリオ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #eee;
+    }
+  </style>
 </head>
 <body>
-  <h1>tsutomu のポートフォリオ</h1>
-  <p>データ分析・業務改善ツールを中心に制作しています。</p>
 
-  <nav>
-    <a href="apps.html">制作アプリ一覧</a> |
-    <a href="skills.html">技術スタック</a> |
-    <a href="github.html">GitHub</a> |
-    <a href="contact.html">連絡先</a>
-  </nav>
+<header>
+  <h1>tsutomu のポートフォリオ</h1>
+  <p>データ分析 × 業務改善ツールを中心に制作しています</p>
+</header>
+
+<nav>
+  <a href="apps.html">制作アプリ一覧</a>
+  <a href="skills.html">技術スタック</a>
+  <a href="github.html">GitHub</a>
+  <a href="contact.html">連絡先</a>
+</nav>
+
+<div class="container">
+  <h2>自己紹介</h2>
+  <p>
+    はじめまして。tsutomu と申します。<br>
+    データ分析や業務改善に役立つ Web アプリを中心に制作しています。<br>
+    インテリアコーディネートの経験を活かし、<strong>「見やすく・使いやすい UI」</strong> を意識した開発を行っています。
+  </p>
+
+  <h2>得意分野</h2>
+  <ul>
+    <li>データ可視化（Chart.js / CSV 分析）</li>
+    <li>業務改善ツール（ToDo / メモ / 家計簿など）</li>
+    <li>API を使ったアプリ開発</li>
+  </ul>
+
+  <h2>最新の制作アプリ</h2>
+  <p>
+    → <a href="apps.html">制作アプリ一覧を見る</a>
+  </p>
+</div>
+
+<footer>
+  © 2026 tsutomu Portfolio
+</footer>
+
 </body>
 </html>
