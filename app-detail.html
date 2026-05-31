@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>アプリ詳細 - tsutomu ポートフォリオ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h3 {
+      margin-bottom: 10px;
+    }
+    .link-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>アプリ詳細</h1>
+  <p>課題 → 解決 → 成果 をわかりやすくまとめています</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="apps.html">制作アプリ一覧</a>
+  <a href="skills.html">技術スタック</a>
+  <a href="github.html">GitHub</a>
+  <a href="contact.html">連絡先</a>
+</nav>
+
+<div class="container">
+
+  <!-- ▼▼▼ アプリ①：データ可視化ダッシュボード ▼▼▼ -->
+  <section id="data-dashboard" class="section">
+    <h2>データ可視化ダッシュボード</h2>
+
+    <h3>■ 課題</h3>
+    <p>
+      日々の売上データを Excel で管理していたが、  
+      「グラフ化が面倒」「視覚的に把握しづらい」という課題があった。
+    </p>
+
+    <h3>■ 解決</h3>
+    <p>
+      CSV をアップロードするだけで自動でグラフ化する Web アプリを作成。  
+      Chart.js を使用し、折れ線グラフ・棒グラフに対応。
+    </p>
+
+    <h3>■ 成果</h3>
+    <ul>
+      <li>データの視覚化がワンクリックで可能に</li>
+      <li>Excel の手作業が不要になり、作業時間を大幅削減</li>
+      <li>スマホでも閲覧可能な UI を実現</li>
+    </ul>
+
+    <h3>■ 使用技術</h3>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Chart.js</li>
+      <li>GitHub Pages</li>
+    </ul>
+
+    <a class="link-btn" href="https://tssato.github.io/data-dashboard" target="_blank">アプリを開く</a>
+    <a class="link-btn" href="https://github.com/tssato/data-dashboard" target="_blank">GitHub リポジトリ</a>
+  </section>
+
+
+  <!-- ▼▼▼ アプリ②：ToDo 管理ツール ▼▼▼ -->
+  <section id="todo-app" class="section">
+    <h2>ToDo 管理ツール</h2>
+
+    <h3>■ 課題</h3>
+    <p>
+      日々のタスク管理が紙ベースで、  
+      「紛失しやすい」「更新が面倒」という問題があった。
+    </p>
+
+    <h3>■ 解決</h3>
+    <p>
+      ブラウザ上でタスクを追加・削除でき、  
+      ローカルストレージに自動保存される Web アプリを作成。
+    </p>
+
+    <h3>■ 成果</h3>
+    <ul>
+      <li>タスク管理がデジタル化され、紛失リスクがゼロに</li>
+      <li>スマホでも利用可能</li>
+      <li>UI をシンプルにし、直感的に操作できるように設計</li>
+    </ul>
+
+    <h3>■ 使用技術</h3>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>LocalStorage</li>
+      <li>GitHub Pages</li>
+    </ul>
+
+    <a class="link-btn" href="https://tssato.github.io/todo-app" target="_blank">アプリを開く</a>
+    <a class="link-btn" href="https://github.com/tssato/todo-app" target="_blank">GitHub リポジトリ</a>
+  </section>
+
+
+  <!-- ▼▼▼ アプリ③：天気 API アプリ ▼▼▼ -->
+  <section id="weather-app" class="section">
+    <h2>天気 API アプリ</h2>
+
+    <h3>■ 課題</h3>
+    <p>
+      外出前に複数の天気サイトを確認するのが手間だった。
+    </p>
+
+    <h3>■ 解決</h3>
+    <p>
+      API を利用し、都市名を入力すると天気情報を取得できるアプリを作成。
+    </p>
+
+    <h3>■ 成果</h3>
+    <ul>
+      <li>必要な天気情報を1画面で確認可能</li>
+      <li>API の扱いに習熟</li>
+      <li>レスポンシブ対応でスマホでも見やすい</li>
+    </ul>
+
+    <h3>■ 使用技術</h3>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Fetch API</li>
+      <li>GitHub Pages</li>
+    </ul>
+
+    <a class="link-btn" href="https://tssato.github.io/weather-app" target="_blank">アプリを開く</a>
+    <a class="link-btn" href="https://github.com/tssato/weather-app" target="_blank">GitHub リポジトリ</a>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 tsutomu Portfolio
+</footer>
+
+</body>
+</html>
